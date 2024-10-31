@@ -1,0 +1,109 @@
+<div class="grid">
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <style>
+    .grid-image {
+        border-radius: 10px;
+        transition: 0.2s ease-in-out;
+        width: 100%;
+        height: 100%;
+      }
+      .grid-image:hover {
+        transform: scale(1.05);
+        transition: 0.2s ease-in-out;
+      }
+      .grid {
+        display: grid;
+        gap: 10px;
+        grid-template-areas:
+          "I1 I1 I2 I3"
+          "I1 I1 I2 I7"
+          "I4 I5 I6 I7";
+      }
+      
+      .item1 {
+        grid-area: I1;
+      }
+      .item2 {
+        grid-area: I2;
+      }
+      .item3 {
+        grid-area: I3;
+      }
+      .item4 {
+        grid-area: I4;
+      }
+      .item5 {
+        grid-area: I5;
+      }
+      .item6 {
+        grid-area: I6;
+      }
+      .item7 {
+        grid-area: I7;
+      }
+      
+      </style>
+    <body>
+        <head><div class="memu"><h3>OUR MENU</h3>
+        OUR MEMU YOU MIGHT LIKE  CLICK ON DISH TO ADD TO CART</div></head>
+    <div class="item1">
+      <img
+        class="grid-image"
+        src="chicken briyani.jpg"
+        alt="image 1"
+        height="100px"/>
+    </div>
+    <div class="item2">
+      <img
+        class="grid-image"
+        src="mutton.jpg"
+        alt="image 2"
+      />
+    </div>
+    <div class="item3">
+      <img
+        class="grid-image"
+        src="mandi.jpg"
+        alt="image 3"
+      />
+    </div>
+    <div class="item4">
+      <img
+        class="grid-image"
+        src="paneerbriyani.jpg"
+        alt="image 4"
+      />
+    </div>
+    <div class="item5">
+      <img
+        class="grid-image"
+        src="burji.jpg"
+        alt="image 5"
+      />
+    </div>
+    <div class="item6">
+      <img
+        class="grid-image"
+        src="paneer.jpg"
+        alt="image 6"
+      
+      />
+    </div>
+    <div class="item7">
+      <img
+        class="grid-image"
+        src="chicken leg.jpg"
+        alt="image 7"/>
+
+    </div>
+  </div>
+</div>
+</div>
+</body>
+</html>
